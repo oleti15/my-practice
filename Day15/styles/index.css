@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(80, 24, 246);
+}
+ #todo-container{
+    border: 1px solid rgba(170, 19, 170, 0.905);
+    width: 20%;
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+#main-container{
+    
+    display: flex;
+    justify-content: space-evenly; 
+}
+#input-container{
+    border: 1px solid rgb(18, 16, 16); 
+    display: flex;
+    border-radius:10px;
+    background-color: rgb(245, 233, 233);
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    color: black;
+    box-shadow: rgba(216, 21, 21, 0.35) 0px 5px 15px;
+}
+ .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.done{ 
+    background-color: green; 
+ }
+.pending{
+    background-color: red;
+} 
