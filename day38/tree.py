@@ -40,6 +40,11 @@ def Height(root):
         return
     left_height=Height(root.left)
     right_height=Height(root.right)
+    if left_height-right_height<=1:
+        return True
+    else:
+        return False
+
 
 root=TreeNode(1)
 root.left=TreeNode(2)
